@@ -2,6 +2,9 @@ from typing import List,Iterator
 from collections import deque
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
+        """
+        多源广搜
+        """
         n = len(grid)
         if n is 0:
             return 0
