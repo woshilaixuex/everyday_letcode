@@ -12,5 +12,5 @@ class Solution:
             return True
         if (checkRotting()):
             return 0
-        
+        1
         return 0
