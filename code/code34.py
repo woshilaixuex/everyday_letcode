@@ -9,7 +9,7 @@ class Solution:
             return [-1,-1]
         def binSeach(target: int) -> int:
             l = 0
-            r = len(nums) # 这里故意右移一位
+            r = len(nums)
             while (l < r):
                 mid = (l + r) // 2
                 if nums[mid] < target:
@@ -24,6 +24,6 @@ class Solution:
         return [left,right]
 if __name__ ==  "__main__":
     solution = Solution()
-    nums = [1,2,3]
-    target = 4
+    nums = [0]
+    target = 0
     print(solution.searchRange(nums,target))
