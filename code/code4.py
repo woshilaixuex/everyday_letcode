@@ -11,6 +11,11 @@ class Solution:
         left = 0
         right = len(nums1)
         while (left < right):
+            """
+                实际是二分寻找分界线
+                2 |   ;i = 1
+                1 | 3 ;j = 2 - 1
+            """
             i = (left + right) // 2
             j = lTotal - i
             if i < len(nums1) and nums1[i] < nums2[j-1]:
