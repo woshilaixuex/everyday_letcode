@@ -6,3 +6,5 @@
 集合set: add(T) remove(T)
 二维数组初始化: [[T] * n for _ in range(m)]
 lambda: 
+重点题型
+code 146 LRU 最近最少使用
