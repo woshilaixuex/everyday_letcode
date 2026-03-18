@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "C:\\Users\\cokea\\scoop\\apps\\mingw\\current\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-static-libstdc++",
+                "-static-libgcc"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "g++ build active file with debug info"
+        }
+    ]
+}
